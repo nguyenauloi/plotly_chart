@@ -15,10 +15,13 @@ The website includes a filter for Test Subject ID that will include a myriad of 
 
 The website's filter also allows the user to select on any of the available IDs and view informative charts such as: 
 ![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-1.PNG "website-demo-1.PNG")
+
 What the top 10 most frequent bacteria cultures were found were,
 ![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-2.PNG "website-demo-2.PNG")
+
 How frequently a subject washed their belly button per week during routine hygeiene, 
 ![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-3.PNG "website-demo-3.PNG")
+
 and the bacteria cultures per sample that were obtained.
 
 ## Summary
