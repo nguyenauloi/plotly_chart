@@ -6,16 +6,19 @@ Module 12
 Many bacteria are not well studied while many more are unknown to science. Luckily, the human body is a vast ecosystem of thousands of types of bacteria that vary from person to person. Our goal is to find bacteria that simulates the taste of beef and what better place to look than within the human bellybutton? This dashboard aims to provide insight to our current research for both our team and our participants. We will accomplish this by using a mix of html, plot.ly, and JavaScript to manipulate data from our JSON file and display it in a meaningful way on the website.
 
 ## Website Preview
-[pv placeholder]
+![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-preview.PNG "website-preview.PNG")
+![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-preview1.PNG "website-preview1.PNG")
 
 The website includes a filter for Test Subject ID that will include a myriad of useful information as seen below:
+![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-instructions-1.PNG "website-instructions-1.PNG")
+![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-instructions-2.PNG "website-instructions-2.PNG")
 
-THe website's filter also allows the user to select on any of the available IDs and view informative charts such as: 
-[demo1 placeholder]
+The website's filter also allows the user to select on any of the available IDs and view informative charts such as: 
+![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-1.PNG "website-demo-1.PNG")
 What the top 10 most frequent bacteria cultures were found were,
-[demo2 placeholder]
+![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-2.PNG "website-demo-2.PNG")
 How frequently a subject washed their belly button per week during routine hygeiene, 
-[demo3 placeholder]
+![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-3.PNG "website-demo-3.PNG")
 and the bacteria cultures per sample that were obtained.
 
 ## Summary
