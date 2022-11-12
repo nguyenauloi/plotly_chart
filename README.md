@@ -10,19 +10,20 @@ Many bacteria are not well studied while many more are unknown to science. Lucki
 ![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-preview1.PNG "website-preview1.PNG")
 
 The website includes a filter for Test Subject ID that will include a myriad of useful information as seen below:
-![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-instructions-1.PNG "website-instructions-1.PNG")
-![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-instructions-2.PNG "website-instructions-2.PNG")
+<img src="https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-instructions-1.PNG" width="400">
+<img src="https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-instructions-2.PNG" width="400">
 
 The website's filter also allows the user to select on any of the available IDs and view informative charts such as: 
-![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-1.PNG "website-demo-1.PNG")
 
 What the top 10 most frequent bacteria cultures were found were,
-![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-2.PNG "website-demo-2.PNG")
+<img src="https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-1.PNG" width="400">
 
-How frequently a subject washed their belly button per week during routine hygeiene, 
-![](https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-3.PNG "website-demo-3.PNG")
-
+How frequently a subject washed their belly button per week during routine hygeiene,
+<img src="https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-2.PNG" width="400">
 and the bacteria cultures per sample that were obtained.
+<img src="https://github.com/nguyenauloi/plotly_chart/blob/main/static/img/website-demo-3.PNG" width="400">
+
+
 
 ## Summary
 The aim of this website will allow research participants and reserchers an easy-to-use way to interface with the data captured and provide meaningful insight to what will be studied.
