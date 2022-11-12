@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, 
+                                 initial-scale=1, 
+                                 maximum-scale=1, 
+                                 user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<style>
+
+.jumbotron{
+  background-image: url("/static/img/header-background.jpg");
+  background-color: rgba(255,255,255,0);
+  background-blend-mode: lighten;
+  font-family: "Lucida Console"; text-shadow: 1px 1px rgb(149, 149, 161);
+}
+
+.well {
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+}
+
+h5, h6 {
+    font-weight:bold;
+    color: black
+  }
+h7 {
+  align-content: center;
+  font-weight: bold;
+  text-align: center;
+}
+caption {
+  display: table-caption;
+  text-align: center;
+  color: grey;
+}
+
+</style>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below <br>to explore the dataset</p>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <h7>Many bacteria are not well studied while many more are unknown to science. Luckily, the human body is a vast ecosystem of thousands of types of bacteria that vary from person to person. Our goal is to find bacteria that simulates the taste of beef and what better place to look than within the human bellybutton? This dashboard aims to provide insight to our current research for both our team and our participants. Please feel free to look around if you are a participant and, if you know your Test Subject ID, you can look up your very own data. <br></h7>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading"style="background-color:rgb(233,155,90)">
+            <h3 class="panel-title" style="font-weight: bold">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+        <caption>This chart indicates the type and frequency of bacteria cultures found in our test subject</p>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+        <caption>This guage chart lets us know how many times a person cleans their belly button during routine hygeine</p>
+        </caption>
+      </div>
+      <div class="col-md-12">
+        <div id="bubble"></div>
+        <caption>This chart indicates the amount of  each bacteria found per sample</p>
+        </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="charts.js"></script>
+
+</body>
+
+</html>
